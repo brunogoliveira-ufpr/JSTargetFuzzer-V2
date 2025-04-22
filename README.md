@@ -9,7 +9,7 @@ JSTargetFuzzer-v2.0 is an approach that utilizes novel history-based fuzzing gui
   * Kali Linux 2024.1
 
 * Third-Party Software:
-  * Install Swift version 5.6.3 (swift-5.6.2-RELEASE-ubuntu20.04)
+  * Install Swift version 5.6.2 (swift-5.6.2-RELEASE-ubuntu20.04)
   * Extract the tarball file and add to the $PATH:
   * ```bash
     export $PATH=$PATH:/home/user/swift-5.6.2/
