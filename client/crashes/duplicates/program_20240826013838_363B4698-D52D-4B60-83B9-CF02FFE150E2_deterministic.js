@@ -1,1 +1,0 @@
-/[7sa\Sc]/dvmgysi;

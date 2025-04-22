@@ -1,1 +1,0 @@
-/[za\Sc*]/dvmgsi;

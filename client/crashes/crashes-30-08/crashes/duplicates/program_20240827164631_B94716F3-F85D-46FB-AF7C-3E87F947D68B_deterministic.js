@@ -1,1 +1,0 @@
-/[ofwa\Sc]/vgi;

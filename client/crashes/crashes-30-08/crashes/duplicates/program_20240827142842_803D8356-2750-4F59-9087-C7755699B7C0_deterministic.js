@@ -1,1 +1,0 @@
-/[zEa\Sc]/dvmg;
