@@ -68,7 +68,7 @@ Scripts utilized for the RQs are stored in `scripts/` folder.
   - Local URL: http://localhost:8501  
   - Network URL: http://<your-ip>:8501
 
-## RQ2 – Intermediate Language Program Analysis
+## RQ2 – Program Analysis
 
 All programs for RQ2 are saved as Intermediate Language (IL) files in the `programs/files/` directory.
 
@@ -81,8 +81,7 @@ To convert IL programs to JavaScript:
 swift-run FuzzILTool --liftCorpusToJS /programs/files/
 ```
 
-Analyzed programs are compressed and stored in the `analyzed-programs/` folder.  
-The script used to compute JavaScript metrics is available at: `analyzed-programs/program_metrics.py`
+The script used to compute JavaScript metrics is available at: `scripts/RQ2-metrics.py`
 
 ## RQ3 – Crash Analysis
 
