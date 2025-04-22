@@ -1,6 +1,6 @@
 # JSTargetFuzzer
 
-JSTargetFuzzer-v2.0 is an approach utilizing a novel historical-based fuzzing guidance with tailored seeds and mutation operators using Fuzzilli as base software.
+JSTargetFuzzer-v2.0 is an approach that utilizes novel history-based fuzzing guidance with tailored seeds and mutation operators, using Fuzzilli as base software.
 
 ## Install
 
@@ -17,10 +17,10 @@ JSTargetFuzzer-v2.0 is an approach utilizing a novel historical-based fuzzing gu
 * Instructions to install JSTargetFuzzer
   * In the terminal, run the following commands to clone the repository
   * ```bash
-    git clone git@github.com:brunogoliveira-ufpr/JSTargetFuzzer.git
+    git clone git@github.com:brunogoliveira-ufpr/JSTargetFuzzer-V2.git
   
 ## Usage
-If everything is working properly, you can run JSTargetFuzzer using command-line:
+If everything is working correctly, you can run JSTargetFuzzer using command-line:
 * ```bash
    swift-run FuzzilliCli --help
 
@@ -38,7 +38,7 @@ swift-run FuzzilliCli --profile=duktape /home/kali/JSEs/duktape/build/duk-fuzzil
 ```
 
 ### RQ1
-* Install StreamLit
+* Install Streamlit
 ```bash
 pip install streamlit
 ```
