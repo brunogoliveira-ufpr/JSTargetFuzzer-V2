@@ -1,0 +1,1 @@
+/[wJ\p{Script=Greek}[\xf0\x9f\x92\xa9-\xf4\x8f\xbf\xbf]m7foo[z]*3+]/dvmgi;

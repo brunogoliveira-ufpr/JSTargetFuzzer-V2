@@ -1,0 +1,517 @@
+{
+    "loadint": [
+        "IntegerGenerator",
+        "BuiltinObjectInstanceGenerator",
+        "TypedArrayGenerator",
+        "ObjectBuilderFunctionGenerator",
+        "ObjectConstructorGenerator",
+        "ClassDefinitionGenerator",
+        "WhileLoopGenerator",
+        "DoWhileLoopGenerator",
+        "SimpleForLoopGenerator",
+        "ComplexForLoopGenerator",
+        "NumberComputationGenerator",
+        "ResizableArrayBufferGenerator",
+        "GrowableSharedArrayBufferGenerator",
+        "IteratorGenerator"
+    ],
+    "randomint": [
+        "IntegerGenerator",
+        "BigIntGenerator",
+        "IntArrayGenerator",
+        "ObjectBuilderFunctionGenerator",
+        "ObjectConstructorGenerator",
+        "ClassDefinitionGenerator",
+        "NumberComputationGenerator"
+    ],
+    "loadbigint": [
+        "BigIntGenerator"
+    ],
+    "loadfloat": [
+        "FloatGenerator",
+        "ObjectBuilderFunctionGenerator",
+        "ClassDefinitionGenerator",
+        "NumberComputationGenerator"
+    ],
+    "randomfloat": [
+        "FloatGenerator",
+        "FloatArrayGenerator",
+        "ObjectBuilderFunctionGenerator",
+        "ClassDefinitionGenerator",
+        "NumberComputationGenerator"
+    ],
+    "loadstring": [
+        "StringGenerator",
+        "ObjectBuilderFunctionGenerator",
+        "ClassDefinitionGenerator",
+        "StringNormalizeGenerator",
+        "TypeTestGenerator"
+    ],
+    "randomstring": [
+        "StringGenerator",
+        "ObjectBuilderFunctionGenerator",
+        "ClassDefinitionGenerator",
+        "TemplateStringGenerator",
+        "StringNormalizeGenerator"
+    ],
+    "loadbool": [
+        "BooleanGenerator"
+    ],
+    "loadundefined": [
+        "UndefinedGenerator"
+    ],
+    "loadnull": [
+        "NullGenerator"
+    ],
+    "createarray": [
+        "ArrayGenerator",
+        "ArrayWithSpreadGenerator"
+    ],
+    "randomvariable": [
+        "ArrayGenerator",
+        "ObjectConstructorGenerator",
+        "ClassDefinitionGenerator",
+        "TrivialFunctionGenerator",
+        "ObjectLiteralPropertyGenerator",
+        "ObjectLiteralComputedPropertyGenerator",
+        "ObjectLiteralPrototypeGenerator",
+        "ObjectLiteralMethodGenerator",
+        "ObjectLiteralComputedMethodGenerator",
+        "ObjectLiteralGetterGenerator",
+        "ClassInstancePropertyGenerator",
+        "ClassInstanceElementGenerator",
+        "ClassInstanceComputedPropertyGenerator",
+        "ClassInstanceMethodGenerator",
+        "ClassInstanceGetterGenerator",
+        "ClassStaticPropertyGenerator",
+        "ClassStaticElementGenerator",
+        "ClassStaticComputedPropertyGenerator",
+        "ClassStaticMethodGenerator",
+        "ClassStaticGetterGenerator",
+        "ClassPrivateInstancePropertyGenerator",
+        "ClassPrivateInstanceMethodGenerator",
+        "ClassPrivateStaticPropertyGenerator",
+        "ClassPrivateStaticMethodGenerator",
+        "ArrayWithSpreadGenerator",
+        "TemplateStringGenerator",
+        "PlainFunctionGenerator",
+        "ArrowFunctionGenerator",
+        "GeneratorFunctionGenerator",
+        "AsyncFunctionGenerator",
+        "AsyncArrowFunctionGenerator",
+        "AsyncGeneratorFunctionGenerator",
+        "UpdateGenerator",
+        "DupGenerator",
+        "ReassignmentGenerator",
+        "SuperPropertyAssignmentGenerator",
+        "SuperPropertyUpdateGenerator",
+        "ThrowGenerator",
+        "WeirdClassGenerator",
+        "ElementKindChangeGenerator",
+        "NamedVariableStoreGenerator",
+        "NamedVariableDefinitionGenerator"
+    ],
+    "createintarray": [
+        "IntArrayGenerator"
+    ],
+    "createfloatarray": [
+        "FloatArrayGenerator"
+    ],
+    "loadbuiltin": [
+        "BuiltinObjectInstanceGenerator",
+        "TypedArrayGenerator",
+        "BuiltinGenerator",
+        "PromiseGenerator",
+        "EvalGenerator",
+        "NumberComputationGenerator",
+        "ImitationGenerator",
+        "ResizableArrayBufferGenerator",
+        "GrowableSharedArrayBufferGenerator",
+        "IteratorGenerator"
+    ],
+    "randomsize": [
+        "BuiltinObjectInstanceGenerator",
+        "TypedArrayGenerator",
+        "ResizableArrayBufferGenerator",
+        "GrowableSharedArrayBufferGenerator"
+    ],
+    "construct": [
+        "BuiltinObjectInstanceGenerator",
+        "TypedArrayGenerator",
+        "ObjectConstructorGenerator",
+        "ClassDefinitionGenerator",
+        "PromiseGenerator",
+        "ImitationGenerator",
+        "ResizableArrayBufferGenerator",
+        "GrowableSharedArrayBufferGenerator"
+    ],
+    "randomregexppatternandflags": [
+        "RegExpGenerator"
+    ],
+    "loadregexp": [
+        "RegExpGenerator"
+    ],
+    "buildplainfunction": [
+        "ObjectBuilderFunctionGenerator",
+        "TrivialFunctionGenerator",
+        "FunctionWithArgumentsAccessGenerator",
+        "PlainFunctionGenerator",
+        "WeirdClassGenerator",
+        "PromiseGenerator"
+    ],
+    "randomparameters": [
+        "ObjectBuilderFunctionGenerator",
+        "ObjectConstructorGenerator",
+        "ObjectLiteralMethodGenerator",
+        "ObjectLiteralComputedMethodGenerator",
+        "ClassConstructorGenerator",
+        "ClassInstanceMethodGenerator",
+        "ClassStaticMethodGenerator",
+        "ClassPrivateInstanceMethodGenerator",
+        "ClassPrivateStaticMethodGenerator",
+        "PlainFunctionGenerator",
+        "ArrowFunctionGenerator",
+        "GeneratorFunctionGenerator",
+        "AsyncFunctionGenerator",
+        "AsyncArrowFunctionGenerator",
+        "AsyncGeneratorFunctionGenerator"
+    ],
+    "buildobjectliteral": [
+        "ObjectBuilderFunctionGenerator",
+        "ObjectLiteralGenerator"
+    ],
+    "buildrecursive": [
+        "ObjectBuilderFunctionGenerator",
+        "ClassDefinitionGenerator",
+        "FunctionWithArgumentsAccessGenerator",
+        "ObjectLiteralGenerator",
+        "ObjectLiteralMethodGenerator",
+        "ObjectLiteralComputedMethodGenerator",
+        "ObjectLiteralGetterGenerator",
+        "ObjectLiteralSetterGenerator",
+        "ClassConstructorGenerator",
+        "ClassInstanceMethodGenerator",
+        "ClassInstanceGetterGenerator",
+        "ClassInstanceSetterGenerator",
+        "ClassStaticInitializerGenerator",
+        "ClassStaticMethodGenerator",
+        "ClassStaticGetterGenerator",
+        "ClassStaticSetterGenerator",
+        "ClassPrivateInstanceMethodGenerator",
+        "ClassPrivateStaticMethodGenerator",
+        "PlainFunctionGenerator",
+        "ArrowFunctionGenerator",
+        "GeneratorFunctionGenerator",
+        "AsyncFunctionGenerator",
+        "AsyncArrowFunctionGenerator",
+        "AsyncGeneratorFunctionGenerator",
+        "CompareWithIfElseGenerator",
+        "SwitchBlockGenerator",
+        "SwitchCaseGenerator",
+        "SwitchDefaultCaseGenerator",
+        "WhileLoopGenerator",
+        "DoWhileLoopGenerator",
+        "SimpleForLoopGenerator",
+        "ComplexForLoopGenerator",
+        "RepeatLoopGenerator",
+        "TryCatchGenerator",
+        "WeirdClassGenerator",
+        "PromiseGenerator",
+        "EvalGenerator",
+        "BlockStatementGenerator",
+        "ImitationGenerator"
+    ],
+    "doreturn": [
+        "ObjectBuilderFunctionGenerator",
+        "TrivialFunctionGenerator",
+        "FunctionWithArgumentsAccessGenerator",
+        "ObjectLiteralMethodGenerator",
+        "ObjectLiteralComputedMethodGenerator",
+        "ObjectLiteralGetterGenerator",
+        "ClassInstanceMethodGenerator",
+        "ClassInstanceGetterGenerator",
+        "ClassStaticMethodGenerator",
+        "ClassStaticGetterGenerator",
+        "ClassPrivateInstanceMethodGenerator",
+        "ClassPrivateStaticMethodGenerator",
+        "PlainFunctionGenerator",
+        "ArrowFunctionGenerator",
+        "GeneratorFunctionGenerator",
+        "AsyncFunctionGenerator",
+        "AsyncArrowFunctionGenerator",
+        "AsyncGeneratorFunctionGenerator",
+        "SubroutineReturnGenerator",
+        "WeirdClassGenerator",
+        "ImitationGenerator",
+        "IteratorGenerator"
+    ],
+    "type": [
+        "ObjectBuilderFunctionGenerator",
+        "ObjectConstructorGenerator",
+        "ArrayWithSpreadGenerator",
+        "UpdateGenerator",
+        "ReassignmentGenerator",
+        "NumberComputationGenerator",
+        "ImitationGenerator"
+    ],
+    "callfunction": [
+        "ObjectBuilderFunctionGenerator",
+        "FunctionWithArgumentsAccessGenerator",
+        "PlainFunctionGenerator",
+        "GeneratorFunctionGenerator",
+        "AsyncFunctionGenerator",
+        "AsyncGeneratorFunctionGenerator",
+        "EvalGenerator"
+    ],
+    "randomarguments": [
+        "ObjectBuilderFunctionGenerator",
+        "ObjectConstructorGenerator",
+        "ClassDefinitionGenerator",
+        "ClassConstructorGenerator",
+        "PlainFunctionGenerator",
+        "GeneratorFunctionGenerator",
+        "AsyncFunctionGenerator",
+        "AsyncGeneratorFunctionGenerator",
+        "SuperMethodCallGenerator",
+        "ImitationGenerator"
+    ],
+    "buildconstructor": [
+        "ObjectConstructorGenerator"
+    ],
+    "hide": [
+        "ObjectConstructorGenerator",
+        "ClassConstructorGenerator",
+        "PromiseGenerator",
+        "NumberComputationGenerator",
+        "ResizableArrayBufferGenerator",
+        "GrowableSharedArrayBufferGenerator",
+        "IteratorGenerator"
+    ],
+    "setproperty": [
+        "ObjectConstructorGenerator"
+    ],
+    "buildclassdefinition": [
+        "ClassDefinitionGenerator",
+        "WeirdClassGenerator",
+        "ImitationGenerator"
+    ],
+    "loadthis": [
+        "ThisGenerator"
+    ],
+    "loadarguments": [
+        "ArgumentsAccessGenerator",
+        "FunctionWithArgumentsAccessGenerator"
+    ],
+    "randomvariables": [
+        "FunctionWithArgumentsAccessGenerator",
+        "NumberComputationGenerator"
+    ],
+    "randomcustompropertyname": [
+        "ObjectLiteralPropertyGenerator",
+        "ObjectLiteralGetterGenerator",
+        "ObjectLiteralSetterGenerator",
+        "ClassInstancePropertyGenerator",
+        "ClassInstanceGetterGenerator",
+        "ClassInstanceSetterGenerator",
+        "ClassStaticPropertyGenerator",
+        "ClassStaticGetterGenerator",
+        "ClassStaticSetterGenerator",
+        "ClassPrivateInstancePropertyGenerator",
+        "ClassPrivateStaticPropertyGenerator",
+        "SuperPropertyRetrievalGenerator",
+        "SuperPropertyAssignmentGenerator",
+        "SuperPropertyUpdateGenerator",
+        "NamedVariableLoadGenerator",
+        "NamedVariableStoreGenerator",
+        "NamedVariableDefinitionGenerator"
+    ],
+    "randomindex": [
+        "ObjectLiteralElementGenerator",
+        "ClassInstanceElementGenerator",
+        "ClassStaticElementGenerator"
+    ],
+    "randomcustommethodname": [
+        "ObjectLiteralMethodGenerator",
+        "ClassInstanceMethodGenerator",
+        "ClassStaticMethodGenerator",
+        "ClassPrivateInstanceMethodGenerator",
+        "ClassPrivateStaticMethodGenerator"
+    ],
+    "currentsuperconstructortype": [
+        "ClassConstructorGenerator"
+    ],
+    "callsuperconstructor": [
+        "ClassConstructorGenerator"
+    ],
+    "unhide": [
+        "ClassConstructorGenerator"
+    ],
+    "createtemplatestring": [
+        "TemplateStringGenerator"
+    ],
+    "callmethod": [
+        "StringNormalizeGenerator",
+        "NumberComputationGenerator"
+    ],
+    "randombuiltin": [
+        "BuiltinGenerator"
+    ],
+    "buildarrowfunction": [
+        "ArrowFunctionGenerator"
+    ],
+    "buildgeneratorfunction": [
+        "GeneratorFunctionGenerator"
+    ],
+    "yield": [
+        "GeneratorFunctionGenerator",
+        "AsyncGeneratorFunctionGenerator",
+        "YieldGenerator"
+    ],
+    "yieldeach": [
+        "GeneratorFunctionGenerator",
+        "AsyncGeneratorFunctionGenerator",
+        "YieldGenerator"
+    ],
+    "buildasyncfunction": [
+        "AsyncFunctionGenerator"
+    ],
+    "await": [
+        "AsyncFunctionGenerator",
+        "AsyncArrowFunctionGenerator",
+        "AsyncGeneratorFunctionGenerator",
+        "AwaitGenerator"
+    ],
+    "buildasyncarrowfunction": [
+        "AsyncArrowFunctionGenerator"
+    ],
+    "buildasyncgeneratorfunction": [
+        "AsyncGeneratorFunctionGenerator"
+    ],
+    "typeof": [
+        "TypeTestGenerator"
+    ],
+    "compare": [
+        "TypeTestGenerator",
+        "TernaryOperationGenerator",
+        "ComparisonGenerator",
+        "CompareWithIfElseGenerator",
+        "WhileLoopGenerator",
+        "DoWhileLoopGenerator",
+        "SimpleForLoopGenerator",
+        "ComplexForLoopGenerator",
+        "IteratorGenerator"
+    ],
+    "unary": [
+        "UnaryOperationGenerator",
+        "WhileLoopGenerator",
+        "DoWhileLoopGenerator",
+        "SimpleForLoopGenerator",
+        "ComplexForLoopGenerator",
+        "NumberComputationGenerator",
+        "IteratorGenerator"
+    ],
+    "binary": [
+        "BinaryOperationGenerator",
+        "NumberComputationGenerator"
+    ],
+    "ternary": [
+        "TernaryOperationGenerator"
+    ],
+    "reassign": [
+        "UpdateGenerator",
+        "ReassignmentGenerator"
+    ],
+    "dup": [
+        "DupGenerator"
+    ],
+    "currentsupertype": [
+        "SuperMethodCallGenerator",
+        "SuperPropertyRetrievalGenerator",
+        "SuperPropertyAssignmentGenerator",
+        "SuperPropertyUpdateGenerator"
+    ],
+    "callsupermethod": [
+        "SuperMethodCallGenerator"
+    ],
+    "randommethodname": [
+        "SuperMethodCallGenerator"
+    ],
+    "buildtrycatchfinally": [
+        "SuperMethodCallGenerator",
+        "TryCatchGenerator"
+    ],
+    "getsuperproperty": [
+        "SuperPropertyRetrievalGenerator"
+    ],
+    "setsuperproperty": [
+        "SuperPropertyAssignmentGenerator"
+    ],
+    "updatesuperproperty": [
+        "SuperPropertyUpdateGenerator"
+    ],
+    "buildifelse": [
+        "CompareWithIfElseGenerator"
+    ],
+    "buildswitch": [
+        "SwitchBlockGenerator"
+    ],
+    "switchbreak": [
+        "SwitchCaseBreakGenerator"
+    ],
+    "buildwhileloop": [
+        "WhileLoopGenerator"
+    ],
+    "builddowhileloop": [
+        "DoWhileLoopGenerator"
+    ],
+    "buildforloop": [
+        "SimpleForLoopGenerator",
+        "ComplexForLoopGenerator"
+    ],
+    "buildrepeatloop": [
+        "RepeatLoopGenerator"
+    ],
+    "loopbreak": [
+        "LoopBreakGenerator"
+    ],
+    "loopcontinue": [
+        "ContinueGenerator"
+    ],
+    "throwexception": [
+        "ThrowGenerator"
+    ],
+    "setelement": [
+        "ElementKindChangeGenerator"
+    ],
+    "loadnamedvariable": [
+        "NamedVariableLoadGenerator"
+    ],
+    "storenamedvariable": [
+        "NamedVariableStoreGenerator"
+    ],
+    "definenamedvariable": [
+        "NamedVariableDefinitionGenerator"
+    ],
+    "buildcodestring": [
+        "EvalGenerator"
+    ],
+    "blockstatement": [
+        "BlockStatementGenerator"
+    ],
+    "methodsignature": [
+        "NumberComputationGenerator"
+    ],
+    "getproperty": [
+        "ImitationGenerator",
+        "IteratorGenerator"
+    ],
+    "createobject": [
+        "ImitationGenerator",
+        "ResizableArrayBufferGenerator",
+        "GrowableSharedArrayBufferGenerator"
+    ],
+    "settype": [
+        "ImitationGenerator",
+        "IteratorGenerator"
+    ]
+}

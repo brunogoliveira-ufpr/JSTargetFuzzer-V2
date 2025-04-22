@@ -1,0 +1,599 @@
+{
+    "IntegerGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "for": 1
+        }
+    },
+    "BigIntGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "for": 1
+        }
+    },
+    "FloatGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "for": 1
+        }
+    },
+    "StringGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "for": 1
+        }
+    },
+    "BooleanGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "UndefinedGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "NullGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "ArrayGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "if": 1
+        }
+    },
+    "IntArrayGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "for": 1
+        }
+    },
+    "FloatArrayGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "for": 1
+        }
+    },
+    "BuiltinObjectInstanceGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "if": 1
+        }
+    },
+    "TypedArrayGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "for": 1
+        }
+    },
+    "RegExpGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "for": 1
+        }
+    },
+    "ObjectBuilderFunctionGenerator": {
+        "complexidade_ciclomatica": 4,
+        "contagem_declaracoes": {
+            "if": 1,
+            "for": 2
+        }
+    },
+    "ObjectConstructorGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "for": 1
+        }
+    },
+    "ClassDefinitionGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "if": 1
+        }
+    },
+    "TrivialFunctionGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "if": 1
+        }
+    },
+    "ThisGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "ArgumentsAccessGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "FunctionWithArgumentsAccessGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "ObjectLiteralGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "ObjectLiteralPropertyGenerator": {
+        "complexidade_ciclomatica": 5,
+        "contagem_declaracoes": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ObjectLiteralElementGenerator": {
+        "complexidade_ciclomatica": 3,
+        "contagem_declaracoes": {
+            "while": 1,
+            "case": 1
+        }
+    },
+    "ObjectLiteralComputedPropertyGenerator": {
+        "complexidade_ciclomatica": 5,
+        "contagem_declaracoes": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ObjectLiteralPrototypeGenerator": {
+        "complexidade_ciclomatica": 4,
+        "contagem_declaracoes": {
+            "else": 1,
+            "guard": 1,
+            "return": 1
+        }
+    },
+    "ObjectLiteralMethodGenerator": {
+        "complexidade_ciclomatica": 5,
+        "contagem_declaracoes": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ObjectLiteralComputedMethodGenerator": {
+        "complexidade_ciclomatica": 5,
+        "contagem_declaracoes": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ObjectLiteralGetterGenerator": {
+        "complexidade_ciclomatica": 6,
+        "contagem_declaracoes": {
+            "for": 1,
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ObjectLiteralSetterGenerator": {
+        "complexidade_ciclomatica": 6,
+        "contagem_declaracoes": {
+            "for": 1,
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassConstructorGenerator": {
+        "complexidade_ciclomatica": 4,
+        "contagem_declaracoes": {
+            "else": 1,
+            "guard": 1,
+            "return": 1
+        }
+    },
+    "ClassInstancePropertyGenerator": {
+        "complexidade_ciclomatica": 5,
+        "contagem_declaracoes": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassInstanceElementGenerator": {
+        "complexidade_ciclomatica": 3,
+        "contagem_declaracoes": {
+            "while": 1,
+            "case": 1
+        }
+    },
+    "ClassInstanceComputedPropertyGenerator": {
+        "complexidade_ciclomatica": 5,
+        "contagem_declaracoes": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassInstanceMethodGenerator": {
+        "complexidade_ciclomatica": 5,
+        "contagem_declaracoes": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassInstanceGetterGenerator": {
+        "complexidade_ciclomatica": 6,
+        "contagem_declaracoes": {
+            "for": 1,
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassInstanceSetterGenerator": {
+        "complexidade_ciclomatica": 6,
+        "contagem_declaracoes": {
+            "for": 1,
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassStaticPropertyGenerator": {
+        "complexidade_ciclomatica": 5,
+        "contagem_declaracoes": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassStaticElementGenerator": {
+        "complexidade_ciclomatica": 3,
+        "contagem_declaracoes": {
+            "while": 1,
+            "case": 1
+        }
+    },
+    "ClassStaticComputedPropertyGenerator": {
+        "complexidade_ciclomatica": 5,
+        "contagem_declaracoes": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassStaticInitializerGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "ClassStaticMethodGenerator": {
+        "complexidade_ciclomatica": 5,
+        "contagem_declaracoes": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassStaticGetterGenerator": {
+        "complexidade_ciclomatica": 6,
+        "contagem_declaracoes": {
+            "for": 1,
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassStaticSetterGenerator": {
+        "complexidade_ciclomatica": 6,
+        "contagem_declaracoes": {
+            "for": 1,
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassPrivateInstancePropertyGenerator": {
+        "complexidade_ciclomatica": 5,
+        "contagem_declaracoes": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassPrivateInstanceMethodGenerator": {
+        "complexidade_ciclomatica": 5,
+        "contagem_declaracoes": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassPrivateStaticPropertyGenerator": {
+        "complexidade_ciclomatica": 5,
+        "contagem_declaracoes": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassPrivateStaticMethodGenerator": {
+        "complexidade_ciclomatica": 5,
+        "contagem_declaracoes": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ArrayWithSpreadGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "for": 1
+        }
+    },
+    "TemplateStringGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "for": 1
+        }
+    },
+    "StringNormalizeGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "BuiltinGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "PlainFunctionGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "ArrowFunctionGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "GeneratorFunctionGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "if": 1
+        }
+    },
+    "AsyncFunctionGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "AsyncArrowFunctionGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "AsyncGeneratorFunctionGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "if": 1
+        }
+    },
+    "TypeTestGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "do": 1
+        }
+    },
+    "SubroutineReturnGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "if": 1
+        }
+    },
+    "YieldGenerator": {
+        "complexidade_ciclomatica": 3,
+        "contagem_declaracoes": {
+            "if": 2
+        }
+    },
+    "AwaitGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "UnaryOperationGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "BinaryOperationGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "TernaryOperationGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "UpdateGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "DupGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "ReassignmentGenerator": {
+        "complexidade_ciclomatica": 4,
+        "contagem_declaracoes": {
+            "else": 1,
+            "guard": 1,
+            "return": 1
+        }
+    },
+    "ComparisonGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "SuperMethodCallGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "if": 1
+        }
+    },
+    "SuperPropertyRetrievalGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "SuperPropertyAssignmentGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "if": 1
+        }
+    },
+    "SuperPropertyUpdateGenerator": {
+        "complexidade_ciclomatica": 4,
+        "contagem_declaracoes": {
+            "for": 3
+        }
+    },
+    "CompareWithIfElseGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "SwitchBlockGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "SwitchCaseGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "SwitchDefaultCaseGenerator": {
+        "complexidade_ciclomatica": 4,
+        "contagem_declaracoes": {
+            "else": 1,
+            "guard": 1,
+            "return": 1
+        }
+    },
+    "SwitchCaseBreakGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "WhileLoopGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "DoWhileLoopGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "do": 1
+        }
+    },
+    "SimpleForLoopGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "ComplexForLoopGenerator": {
+        "complexidade_ciclomatica": 3,
+        "contagem_declaracoes": {
+            "if": 1,
+            "for": 1
+        }
+    },
+    "RepeatLoopGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "LoopBreakGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "ContinueGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "TryCatchGenerator": {
+        "complexidade_ciclomatica": 8,
+        "contagem_declaracoes": {
+            "catch": 3,
+            "try": 4
+        }
+    },
+    "ThrowGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "WeirdClassGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "PromiseGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "for": 1
+        }
+    },
+    "ElementKindChangeGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "NamedVariableLoadGenerator": {
+        "complexidade_ciclomatica": 4,
+        "contagem_declaracoes": {
+            "if": 2,
+            "for": 1
+        }
+    },
+    "NamedVariableStoreGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "NamedVariableDefinitionGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "EvalGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "BlockStatementGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    },
+    "NumberComputationGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "for": 1
+        }
+    },
+    "ImitationGenerator": {
+        "complexidade_ciclomatica": 3,
+        "contagem_declaracoes": {
+            "if": 2
+        }
+    },
+    "ResizableArrayBufferGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "if": 1
+        }
+    },
+    "GrowableSharedArrayBufferGenerator": {
+        "complexidade_ciclomatica": 2,
+        "contagem_declaracoes": {
+            "if": 1
+        }
+    },
+    "IteratorGenerator": {
+        "complexidade_ciclomatica": 1,
+        "contagem_declaracoes": {}
+    }
+}

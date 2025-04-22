@@ -1,0 +1,243 @@
+Sucesso ao processar program_20240825135932_50F7E850-0B35-493D-9567-0977746A2FF8_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240828103826_C1B45B83-D8FA-4446-8927-281BFCE78D56_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240823150132_76E375E8-C776-4A5B-884A-08E97B898616_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240822142916_919F68F1-8527-4CB6-A27D-E861F45A598E_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240827055143_A201E167-A834-48A8-A0A8-EC4834038734_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240826212556_7FC60A39-B9F5-423C-AF32-8257EFB6A750_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240829085211_4225A49F-2C50-4612-8676-E4608EDC559E_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240823145241_87523E99-0376-4D03-A73E-B209BFD68C5B_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240827055844_E6C6052E-93BE-4E53-B911-E6CDA9366363_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240823083650_67F460D1-584B-471D-B352-46DEBFEF3F18_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240824151348_4448B83C-D35E-4B93-9159-DB395FCF944D_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240823083614_DAB59E22-BE9C-4827-ABE7-6E6DF07029C2_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240826180256_C9199C16-DF92-4C22-9A41-B29A264EF99F_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240827072535_C2EC8F55-DDEF-412B-B6AC-C1D6B6A217C0_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240825064606_74507749-9CA9-4E94-8C8A-88CAA497965F_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240825194526_24792386-9917-45C2-9903-9A77CF973F3F_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240823083747_B404F324-94DE-4347-B753-99D0D1BD96CA_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240829004422_931B2BBE-F0E5-46CB-8396-EB27D0000EA0_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240825124843_838B5715-F4F0-4841-AC0C-619109AF6F54_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240828164245_0E1A0EB3-B988-4ED8-AE7D-D702FBA0E251_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240825135938_EAEACD1A-06C4-4FC3-804C-9819FA16DFEF_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240828075741_7CD8D151-822B-423B-9419-C32857E5D7E6_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240829125219_49ED870C-EC26-4D3D-B772-E41A0AA0E945_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240825173233_135BBE7D-337F-4AF0-AEE1-A2EC9A4E5BEF_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240825164713_077477F8-91AA-43F9-8AA5-3F4600B5C6A7_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240826124411_448470A3-FB48-48B9-B060-13AFD334D4A6_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240829114519_2494B6DB-AFD5-427E-AAE8-FFC353320205_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240826050857_69D89A55-AA40-4389-B6C7-64D4CC858BE7_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240826013835_07DE792F-27BF-4E2D-84EA-1B90B576A8A7_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240827113601_17A88B09-8F53-4AEF-BF72-99788D631996_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240827091307_E821D282-3293-477A-A9B8-1499073ACACD_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240826040101_DD993FE6-6584-4C55-A0EE-2DB2D1F60926_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240828194307_77CF23CB-1A63-4F20-8087-E6CF29A3ACCB_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240825161427_BBC73F7E-C3F1-4D51-8D0F-E4F28755A281_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240828140942_25D7AC25-63D6-41D9-B880-B664D49E739C_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240824152344_679A004D-58B6-4058-816D-08580298C0A4_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240829191341_6F370B88-CEB3-4F5C-9594-E121F7BBD6B5_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240824152436_F4604AC5-63D2-4CCC-8816-F9B2AF0F4A30_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240825234627_C4C6AAD7-F3C4-4265-A080-557E27736DC8_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240826093413_2D94060B-42DF-4A2B-9A44-1F925DE49F92_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240825152958_7B83B07D-5295-4449-A87A-13F8D8210F04_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240823172939_89890D52-EDC3-41E4-B026-7E163F6A5FE5_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240825065156_CEA0B35D-6E5B-4D93-975A-C0E0A4C5AD15_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240827063649_D98ED828-40AC-405F-9C0A-3044F3B28495_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240828193148_690C28C8-72F1-49BA-9306-71AC8DBF6A2C_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240827003735_D0F6B0B0-B7B4-4F2F-8F35-BA30445D470C_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240823083626_0F24F03C-4DF4-4E1C-A530-83DD9FCFEC8F_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240827202452_07899ACA-012A-4B29-AB01-FD2421F40E1E_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240823175808_5D542416-9024-49FC-809A-360F08985665_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240827153757_02BD0939-D30D-4821-A46C-4E41DAB4B548_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240825181313_4C5169C2-77BD-48CE-8B1A-BF4073B14E75_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240822143017_679FC8D6-4C43-4704-8738-D1BCDA2769ED_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240829223319_45871B86-2B67-4053-88C9-9422F639F486_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240826194048_DC57F256-BA70-43AA-B420-AB66F716E20C_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240830072741_A530D63F-1065-492C-A6C2-23E4F1A9110F_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240827073547_5CA19676-7271-440D-84CA-DEFA160DD364_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240829061604_65138127-1ED7-4F29-B38C-745630B9FE1F_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240828132945_54BCDA0C-D4F8-4478-8DFC-3E826CDA2DEE_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240826011712_2AEB18F6-7746-4827-AD29-A315113F0929_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240825173342_E9CBB646-6C7E-4A05-BF69-DB0AC7A234EE_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240829034446_D8AF998E-5CEF-454C-BB60-F68B42EF7220_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240827184029_811DC743-37BE-40CF-9011-FC3ACBE12682_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240824152421_EAD46E10-97C4-411A-9CCF-7E73AF650298_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240823115733_7D9A51D2-C20E-4257-B9FE-5BE3E227F31C_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240823101033_A5C181A5-767D-4BE2-BA9A-825A3926A1A6_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240825042140_4123A461-DE5E-4739-80EA-303FBAA5F250_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240824152351_777DC439-3A68-4007-80B3-925A4C2F4A3B_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240826052821_EAADEBB7-A036-4D26-A3B5-0A7385BA1EA0_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240830035334_84972334-F148-4B3B-8CFB-D3A95FAFCBD4_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240824203850_0BF08284-F9EF-4D69-B8C3-3CC07145186F_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240826153809_30631976-7165-48D9-8FCC-F4EEE116DF9F_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240825170938_F95EDA9C-D24F-4C0F-86FC-BB9B656D6A29_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240827094117_1BCEE356-52B3-4EE8-B704-DCF1495A8029_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240825110755_EFC22169-0787-4211-8E64-BC1C1748EA02_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240828095729_05BF1696-612A-428C-9E17-CD7112A1450E_flaky.js
+Saída do comando:
+
+Sucesso ao processar program_20240828143209_B86014B6-FE89-4DEF-BBE5-A8E7B381A469_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240828133215_C56326E2-E769-434B-BE56-79446102FBA1_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240826075242_D328C3F0-4AC1-42BC-A1CC-F108B070C8F4_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240826075319_A34DAE00-96D0-4D3A-8F19-8A8FC27D5D39_flaky.js
+Saída do comando:
+
+Sucesso ao processar program_20240826203145_790B229D-CEDC-49C5-98E6-E082CCB47838_deterministic.js
+Saída do comando:
+
+Sucesso ao processar program_20240826004554_46B9A3A5-175D-4922-81AB-48DB3DDD2D72_deterministic.js
+Saída do comando:
+

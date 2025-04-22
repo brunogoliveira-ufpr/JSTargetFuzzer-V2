@@ -1,0 +1,599 @@
+{
+    "IntegerGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "for": 1
+        }
+    },
+    "BigIntGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "for": 1
+        }
+    },
+    "FloatGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "for": 1
+        }
+    },
+    "StringGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "for": 1
+        }
+    },
+    "BooleanGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "UndefinedGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "NullGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "ArrayGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "if": 1
+        }
+    },
+    "IntArrayGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "for": 1
+        }
+    },
+    "FloatArrayGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "for": 1
+        }
+    },
+    "BuiltinObjectInstanceGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "if": 1
+        }
+    },
+    "TypedArrayGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "for": 1
+        }
+    },
+    "RegExpGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "for": 1
+        }
+    },
+    "ObjectBuilderFunctionGenerator": {
+        "cyclomatic_complexity": 4,
+        "control_flow_counts": {
+            "if": 1,
+            "for": 2
+        }
+    },
+    "ObjectConstructorGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "for": 1
+        }
+    },
+    "ClassDefinitionGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "if": 1
+        }
+    },
+    "TrivialFunctionGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "if": 1
+        }
+    },
+    "ThisGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "ArgumentsAccessGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "FunctionWithArgumentsAccessGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "ObjectLiteralGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "ObjectLiteralPropertyGenerator": {
+        "cyclomatic_complexity": 5,
+        "control_flow_counts": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ObjectLiteralElementGenerator": {
+        "cyclomatic_complexity": 3,
+        "control_flow_counts": {
+            "while": 1,
+            "case": 1
+        }
+    },
+    "ObjectLiteralComputedPropertyGenerator": {
+        "cyclomatic_complexity": 5,
+        "control_flow_counts": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ObjectLiteralPrototypeGenerator": {
+        "cyclomatic_complexity": 4,
+        "control_flow_counts": {
+            "else": 1,
+            "guard": 1,
+            "return": 1
+        }
+    },
+    "ObjectLiteralMethodGenerator": {
+        "cyclomatic_complexity": 5,
+        "control_flow_counts": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ObjectLiteralComputedMethodGenerator": {
+        "cyclomatic_complexity": 5,
+        "control_flow_counts": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ObjectLiteralGetterGenerator": {
+        "cyclomatic_complexity": 6,
+        "control_flow_counts": {
+            "for": 1,
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ObjectLiteralSetterGenerator": {
+        "cyclomatic_complexity": 6,
+        "control_flow_counts": {
+            "for": 1,
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassConstructorGenerator": {
+        "cyclomatic_complexity": 4,
+        "control_flow_counts": {
+            "else": 1,
+            "guard": 1,
+            "return": 1
+        }
+    },
+    "ClassInstancePropertyGenerator": {
+        "cyclomatic_complexity": 5,
+        "control_flow_counts": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassInstanceElementGenerator": {
+        "cyclomatic_complexity": 3,
+        "control_flow_counts": {
+            "while": 1,
+            "case": 1
+        }
+    },
+    "ClassInstanceComputedPropertyGenerator": {
+        "cyclomatic_complexity": 5,
+        "control_flow_counts": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassInstanceMethodGenerator": {
+        "cyclomatic_complexity": 5,
+        "control_flow_counts": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassInstanceGetterGenerator": {
+        "cyclomatic_complexity": 6,
+        "control_flow_counts": {
+            "for": 1,
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassInstanceSetterGenerator": {
+        "cyclomatic_complexity": 6,
+        "control_flow_counts": {
+            "for": 1,
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassStaticPropertyGenerator": {
+        "cyclomatic_complexity": 5,
+        "control_flow_counts": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassStaticElementGenerator": {
+        "cyclomatic_complexity": 3,
+        "control_flow_counts": {
+            "while": 1,
+            "case": 1
+        }
+    },
+    "ClassStaticComputedPropertyGenerator": {
+        "cyclomatic_complexity": 5,
+        "control_flow_counts": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassStaticInitializerGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "ClassStaticMethodGenerator": {
+        "cyclomatic_complexity": 5,
+        "control_flow_counts": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassStaticGetterGenerator": {
+        "cyclomatic_complexity": 6,
+        "control_flow_counts": {
+            "for": 1,
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassStaticSetterGenerator": {
+        "cyclomatic_complexity": 6,
+        "control_flow_counts": {
+            "for": 1,
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassPrivateInstancePropertyGenerator": {
+        "cyclomatic_complexity": 5,
+        "control_flow_counts": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassPrivateInstanceMethodGenerator": {
+        "cyclomatic_complexity": 5,
+        "control_flow_counts": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassPrivateStaticPropertyGenerator": {
+        "cyclomatic_complexity": 5,
+        "control_flow_counts": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ClassPrivateStaticMethodGenerator": {
+        "cyclomatic_complexity": 5,
+        "control_flow_counts": {
+            "else": 1,
+            "guard": 1,
+            "repeat": 1,
+            "return": 1
+        }
+    },
+    "ArrayWithSpreadGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "for": 1
+        }
+    },
+    "TemplateStringGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "for": 1
+        }
+    },
+    "StringNormalizeGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "BuiltinGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "PlainFunctionGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "ArrowFunctionGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "GeneratorFunctionGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "if": 1
+        }
+    },
+    "AsyncFunctionGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "AsyncArrowFunctionGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "AsyncGeneratorFunctionGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "if": 1
+        }
+    },
+    "TypeTestGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "do": 1
+        }
+    },
+    "SubroutineReturnGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "if": 1
+        }
+    },
+    "YieldGenerator": {
+        "cyclomatic_complexity": 3,
+        "control_flow_counts": {
+            "if": 2
+        }
+    },
+    "AwaitGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "UnaryOperationGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "BinaryOperationGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "TernaryOperationGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "UpdateGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "DupGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "ReassignmentGenerator": {
+        "cyclomatic_complexity": 4,
+        "control_flow_counts": {
+            "else": 1,
+            "guard": 1,
+            "return": 1
+        }
+    },
+    "ComparisonGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "SuperMethodCallGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "if": 1
+        }
+    },
+    "SuperPropertyRetrievalGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "SuperPropertyAssignmentGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "if": 1
+        }
+    },
+    "SuperPropertyUpdateGenerator": {
+        "cyclomatic_complexity": 4,
+        "control_flow_counts": {
+            "for": 3
+        }
+    },
+    "CompareWithIfElseGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "SwitchBlockGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "SwitchCaseGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "SwitchDefaultCaseGenerator": {
+        "cyclomatic_complexity": 4,
+        "control_flow_counts": {
+            "else": 1,
+            "guard": 1,
+            "return": 1
+        }
+    },
+    "SwitchCaseBreakGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "WhileLoopGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "DoWhileLoopGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "do": 1
+        }
+    },
+    "SimpleForLoopGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "ComplexForLoopGenerator": {
+        "cyclomatic_complexity": 3,
+        "control_flow_counts": {
+            "if": 1,
+            "for": 1
+        }
+    },
+    "RepeatLoopGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "LoopBreakGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "ContinueGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "TryCatchGenerator": {
+        "cyclomatic_complexity": 8,
+        "control_flow_counts": {
+            "catch": 3,
+            "try": 4
+        }
+    },
+    "ThrowGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "WeirdClassGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "PromiseGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "for": 1
+        }
+    },
+    "ElementKindChangeGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "NamedVariableLoadGenerator": {
+        "cyclomatic_complexity": 4,
+        "control_flow_counts": {
+            "if": 2,
+            "for": 1
+        }
+    },
+    "NamedVariableStoreGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "NamedVariableDefinitionGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "EvalGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "BlockStatementGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    },
+    "NumberComputationGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "for": 1
+        }
+    },
+    "ImitationGenerator": {
+        "cyclomatic_complexity": 3,
+        "control_flow_counts": {
+            "if": 2
+        }
+    },
+    "ResizableArrayBufferGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "if": 1
+        }
+    },
+    "GrowableSharedArrayBufferGenerator": {
+        "cyclomatic_complexity": 2,
+        "control_flow_counts": {
+            "if": 1
+        }
+    },
+    "IteratorGenerator": {
+        "cyclomatic_complexity": 1,
+        "control_flow_counts": {}
+    }
+}

@@ -1,0 +1,4 @@
+weight,category,count,min_cc,max_cc,avg_cc,std_cc,min_nloc,max_nloc,avg_nloc,std_nloc
+1,Loops,0,0,0,0,0,0,0,0,0
+1,Numeric Operations,0,0,0,0,0,0,0,0,0
+1,Variables,0,0,0,0,0,0,0,0,0

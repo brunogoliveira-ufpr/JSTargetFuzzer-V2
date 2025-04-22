@@ -1,0 +1,9 @@
+# data_processing/files_analysis/__init__.py
+from .count_operations_and_variables import count_operations_and_variables
+from .cyclomatic_complexity import cyclomatic_complexity
+from .categorize_operations import categorize_operations
+from .count_lines_per_operation import count_lines_per_operation
+from .save_unknown_operations import save_unknown_operations
+from .generate_overall_summary import generate_overall_summary
+from .generate_operation_statistics import generate_operation_statistics
+from .generate_detailed_file_data import generate_detailed_file_data

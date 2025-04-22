@@ -1,0 +1,167 @@
+### JST Weight 1000
+Block 1:
+  Variables:
+    Avg Quantity: 4.27
+    Min Quantity: 1
+    Max Quantity: 13
+    Std Dev Quantity: 0.57
+    Avg Cyclomatic Complexity: 4.27
+    Min Cyclomatic Complexity: 1
+    Max Cyclomatic Complexity: 13
+    Std Dev: 0.57
+  Loops:
+    Avg Quantity: 1.35
+    Min Quantity: 1
+    Max Quantity: 4
+    Std Dev Quantity: 0.16
+    Avg Cyclomatic Complexity: 1.35
+    Min Cyclomatic Complexity: 1
+    Max Cyclomatic Complexity: 4
+    Std Dev: 0.16
+  Numeric Operations:
+    Avg Quantity: 3.30
+    Min Quantity: 1
+    Max Quantity: 24
+    Std Dev Quantity: 1.03
+    Avg Cyclomatic Complexity: 3.30
+    Min Cyclomatic Complexity: 1
+    Max Cyclomatic Complexity: 24
+    Std Dev: 1.03
+Block 2:
+  Variables:
+    Avg Quantity: 0.11
+    Min Quantity: 1
+    Max Quantity: 6
+    Std Dev Quantity: 0.45
+    Avg Cyclomatic Complexity: 0.11
+    Min Cyclomatic Complexity: 1
+    Max Cyclomatic Complexity: 6
+    Std Dev: 0.45
+  Loops:
+    Avg Quantity: 0.04
+    Min Quantity: 1
+    Max Quantity: 1
+    Std Dev Quantity: 0.00
+    Avg Cyclomatic Complexity: 0.04
+    Min Cyclomatic Complexity: 1
+    Max Cyclomatic Complexity: 1
+    Std Dev: 0.00
+  Numeric Operations:
+    Avg Quantity: 0.12
+    Min Quantity: 1
+    Max Quantity: 11
+    Std Dev Quantity: 1.02
+    Avg Cyclomatic Complexity: 0.12
+    Min Cyclomatic Complexity: 1
+    Max Cyclomatic Complexity: 11
+    Std Dev: 1.02
+Block 3:
+  Variables:
+    Avg Quantity: 0.75
+    Min Quantity: 1
+    Max Quantity: 12
+    Std Dev Quantity: 0.51
+    Avg Cyclomatic Complexity: 0.75
+    Min Cyclomatic Complexity: 1
+    Max Cyclomatic Complexity: 12
+    Std Dev: 0.51
+  Loops:
+    Avg Quantity: 0.24
+    Min Quantity: 1
+    Max Quantity: 2
+    Std Dev Quantity: 0.15
+    Avg Cyclomatic Complexity: 0.24
+    Min Cyclomatic Complexity: 1
+    Max Cyclomatic Complexity: 2
+    Std Dev: 0.15
+  Numeric Operations:
+    Avg Quantity: 0.56
+    Min Quantity: 1
+    Max Quantity: 6
+    Std Dev Quantity: 0.54
+    Avg Cyclomatic Complexity: 0.56
+    Min Cyclomatic Complexity: 1
+    Max Cyclomatic Complexity: 6
+    Std Dev: 0.54
+Block 4:
+  Variables:
+    Avg Quantity: 0.33
+    Min Quantity: 1
+    Max Quantity: 9
+    Std Dev Quantity: 0.38
+    Avg Cyclomatic Complexity: 0.33
+    Min Cyclomatic Complexity: 1
+    Max Cyclomatic Complexity: 9
+    Std Dev: 0.38
+  Loops:
+    Avg Quantity: 0.12
+    Min Quantity: 1
+    Max Quantity: 1
+    Std Dev Quantity: 0.00
+    Avg Cyclomatic Complexity: 0.12
+    Min Cyclomatic Complexity: 1
+    Max Cyclomatic Complexity: 1
+    Std Dev: 0.00
+  Numeric Operations:
+    Avg Quantity: 0.31
+    Min Quantity: 1
+    Max Quantity: 6
+    Std Dev Quantity: 0.57
+    Avg Cyclomatic Complexity: 0.31
+    Min Cyclomatic Complexity: 1
+    Max Cyclomatic Complexity: 6
+    Std Dev: 0.57
+Block 5:
+  Variables:
+    Avg Quantity: 0.01
+    Min Quantity: 1
+    Max Quantity: 3
+    Std Dev Quantity: 0.41
+    Avg Cyclomatic Complexity: 0.01
+    Min Cyclomatic Complexity: 1
+    Max Cyclomatic Complexity: 3
+    Std Dev: 0.41
+  Numeric Operations:
+    Avg Quantity: 0.00
+    Min Quantity: 1
+    Max Quantity: 2
+    Std Dev Quantity: 0.00
+    Avg Cyclomatic Complexity: 0.00
+    Min Cyclomatic Complexity: 1
+    Max Cyclomatic Complexity: 2
+    Std Dev: 0.00
+
+Block 1:
+  Total Cyclomatic Complexity (Sum): 56.65
+  Avg Cyclomatic Complexity: 14.16
+  Min Cyclomatic Complexity: 1
+  Max Cyclomatic Complexity: 151
+  Std Dev : 3.63
+
+Block 2:
+  Total Cyclomatic Complexity (Sum): 1.79
+  Avg Cyclomatic Complexity: 0.45
+  Min Cyclomatic Complexity: 1
+  Max Cyclomatic Complexity: 32
+  Std Dev : 2.58
+
+Block 3:
+  Total Cyclomatic Complexity (Sum): 9.51
+  Avg Cyclomatic Complexity: 2.38
+  Min Cyclomatic Complexity: 1
+  Max Cyclomatic Complexity: 36
+  Std Dev : 2.15
+
+Block 4:
+  Total Cyclomatic Complexity (Sum): 4.41
+  Avg Cyclomatic Complexity: 1.10
+  Min Cyclomatic Complexity: 1
+  Max Cyclomatic Complexity: 31
+  Std Dev : 1.67
+
+Block 5:
+  Total Cyclomatic Complexity (Sum): 0.09
+  Avg Cyclomatic Complexity: 0.03
+  Min Cyclomatic Complexity: 1
+  Max Cyclomatic Complexity: 27
+  Std Dev : 1.88

@@ -1,71 +1,110 @@
-# JSTargetFuzzer
+# JSTargetFuzzer-V2
 
-JSTargetFuzzer-v1.0 is an approach utilizing a novel code-coverage fuzzing guidance using Fuzzilli as base software.
+**JSTargetFuzzer-v2.0** is a fuzzing approach that incorporates novel history-based guidance, using tailored seeds and custom mutation operators. It is built on top of the Fuzzilli framework.
 
 ## Install
 
-* System configuration:
-  * Intel i9 14900F (24 cores)
-  * Kali Linux 2024.1
+### System Configuration
 
-* Third-Party Software:
-  * Install Swift version 5.6.3 (swift-5.6.2-RELEASE-ubuntu20.04)
-  * Extract the tarball file and add to the $PATH:
-  * ```bash
-    export $PATH=$PATH:/home/user/swift-5.6.2/
+- **CPU**: Intel i9-14900F (24 cores)  
+- **OS**: Kali Linux 2024.1
 
-* Instructions to install JSTargetFuzzer
-  * In the terminal, run the following commands to clone the repository
-  * ```bash
-    git clone git@github.com:brunogoliveira-ufpr/JSTargetFuzzer.git
-  
+### Third-Party Software
+
+- Install Swift version 5.6.2 (`swift-5.6.2-RELEASE-ubuntu20.04`)
+- Extract the tarball and add it to your `$PATH`:
+
+  ```bash
+  export PATH=$PATH:/home/user/swift-5.6.2/
+  ```
+
+### Cloning JSTargetFuzzer
+
+Clone the repository using:
+
+```bash
+git clone git@github.com:brunogoliveira-ufpr/JSTargetFuzzer-V2.git
+```
+
 ## Usage
-If everything is working properly, you can run JSTargetFuzzer using the command-line:
-* ```bash
-   swift-run FuzzilliCli --help
 
-### Targets & Instrumentation
+If installed correctly, JSTargetFuzzer can be run with:
 
-JSTargetFuzzer utilizes the JavaScript engine's instrumentation to target security-relevant address space and redirect the fuzzing campaings towards it.
-Instrumentation examples are found in [TargetsJST](./TargetsJST/) folder.
+```bash
+swift-run FuzzilliCli --help
+```
+
+## Targets & Instrumentation
+
+JSTargetFuzzer uses instrumentation to direct fuzzing toward security-relevant regions of a JavaScript engine’s address space.  
+Examples of instrumented targets are available in the `TargetsJST/` folder.
 
 ## Experimental Package
 
-### RQ1
-The results for RQ1 are saved in CSV files within the programs/data folder. For analysis, utilize the `streamlet` client.
-The statistics for this experimental are saved in [statistics](./stats/) folder.
-* Install StreamLit
+To run JSTargetFuzzer with a minimal corpus size of 2,000:
+
 ```bash
-pip install streamlit
+swift-run FuzzilliCli --profile=duktape /home/kali/JSEs/duktape/build/duk-fuzzilli --minCorpusSize=2000
 ```
-* Run Streamlit from the folder ./cli/. A front-end interface will be available for the evaluation.
-```bash
-streamlit run app.py
 
-  You can now view your Streamlit app in your browser.
+Scripts utilized for the RQs are stored in `scripts/` folder.
 
-  Local URL: http://localhost:8501
-  Network URL: http://172.27.114.46:8501
-```
-All the statistics during fuzzing campaigns are saved in the `programs/data` folder.
+## RQ1 – HitCount & UniqueHitCount Analysis
 
-### RQ2
-All the programs for RQ2 are saved in IL (Intermediate Language) files within the `programs/files` folder during execution. Programs with weight 1 are saved with _weight1 suffix and with weight 1000 are saved with _weight1000.
+- Install Streamlit:
 
-For program analysis, utilize the `streamlet` client.
-* To convert the IL to JavaScript:
+  ```bash
+  pip install streamlit
+  ```
+
+- Launch the front-end interface from the `./client/` directory:
+
+  ```bash
+  streamlit run app.py
+  ```
+
+  The Streamlit app will be accessible at:
+
+  - Local URL: http://localhost:8501  
+  - Network URL: http://<your-ip>:8501
+
+## RQ2 – Program Metrics Analysis
+
+All programs for RQ2 are saved as Intermediate Language (IL) files in the `programs/files/` directory.
+
+- Programs with `_weight1` suffix have no security flags.
+- Programs with `_weight1000` suffix are tagged with security-relevant behavior.
+
+To convert IL programs to JavaScript:
+
 ```bash
 swift-run FuzzILTool --liftCorpusToJS /programs/files/
-```  
-
-The programs analyzed during the experiment are compressed in ZIP files and saved in [Analyzed Programs](./analyzed-programs/) folder.
-The script used to calculate the metrics for the JavaScript files is in the same folder, [program_metrics.py](./analyzed_programs/program_metrics.py).
-
-### RQ3
-The vulnerability found during our experiment is located in the [Crashes](./crashes/) folder.
-
-The JavaScript files that caused  the crashes are saved in a directory determined by the command-line, for example
-```bash
-swift-run FuzzilliCli --profile=duktape /home/kali/PhD/JSEs/duktape/build/duk-fuzzilli --storagePath=./crashes-duktape/
 ```
-Then the directory ./crashes-duktape/crashes will store the files responsible for crashes during the fuzzing campaign.
+
+The script used to compute JavaScript metrics is available at: `scripts/RQ2-metrics.py`
+
+## RQ3 – Crash Analysis
+
+Crashing inputs are saved in a user-defined directory, for example:
+
+```bash
+swift-run FuzzilliCli --profile=duktape /home/kali/JSEs/duktape/build/duk-fuzzilli --storagePath=./crashes-duktape/ --minCorpusSize=2000
+```
+
+Crash-inducing files will be stored in:
+
+```
+./crashes-duktape/crashes/
+```
+
+## RQ4 – Vulnerabilities (Tailored Approach)
+
+To run a fuzzing campaign with custom operators and tailored seeds:
+
+```bash
+swift-run FuzzilliCli --profile=duktape /home/kali/JSEs/duktape/build/duk-fuzzilli --mutators=splice,combine,operation,exploration,codegen --minCorpusSize=2000
+```
+
+## Results
+
+All statistical outputs and experimental data for RQ1–RQ4 are saved in the `results/` directory.

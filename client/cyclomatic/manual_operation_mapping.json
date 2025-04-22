@@ -1,0 +1,140 @@
+{
+    "beginclassconstructor": [
+        "ClassConstructorGenerator"
+    ],
+    "beginclassdefinition": [
+        "ClassDefinitionGenerator"
+    ],
+    "beginclassinstancemethod": [
+        "ClassInstanceMethodGenerator"
+    ],
+    "beginclassprivateinstancemethod": [
+        "ClassPrivateInstanceMethodGenerator"
+    ],
+    "beginconstructor": [
+        "ConstructorGenerator"
+    ],
+    "beginforinloop": [
+        "ForInLoopGenerator"
+    ],
+    "beginforofloop": [
+        "ForOfLoopGenerator"
+    ],
+    "beginobjectliteral": [
+        "ObjectLiteralGenerator"
+    ],
+    "beginobjectliteralmethod": [
+        "ObjectLiteralMethodGenerator"
+    ],
+    "beginobjectliteralsetter": [
+        "ObjectLiteralSetterGenerator"
+    ],
+    "beginplainfunction": [
+        "PlainFunctionGenerator"
+    ],
+    "beginrepeatloop": [
+        "RepeatLoopGenerator"
+    ],
+    "beginwith": [
+        "WithStatementGenerator"
+    ],
+    "binaryoperation": [
+        "BinaryOperationGenerator"
+    ],
+    "callcomputedmethod": [
+        "CallComputedMethodGenerator"
+    ],
+    "classaddinstancecomputedproperty": [
+        "ClassInstanceComputedPropertyGenerator"
+    ],
+    "classaddinstanceelement": [
+        "ClassInstanceElementGenerator"
+    ],
+    "classaddprivateinstanceproperty": [
+        "ClassPrivateInstancePropertyGenerator"
+    ],
+    "classaddstaticcomputedproperty": [
+        "ClassStaticComputedPropertyGenerator"
+    ],
+    "classaddstaticproperty": [
+        "ClassStaticPropertyGenerator"
+    ],
+    "destructobject": [
+        "DestructObjectGenerator"
+    ],
+    "endclassconstructor": [
+        "ClassConstructorGenerator"
+    ],
+    "endclassdefinition": [
+        "ClassDefinitionGenerator"
+    ],
+    "endclassinstancemethod": [
+        "ClassInstanceMethodGenerator"
+    ],
+    "endclassprivateinstancemethod": [
+        "ClassPrivateInstanceMethodGenerator"
+    ],
+    "endconstructor": [
+        "ConstructorGenerator"
+    ],
+    "endforinloop": [
+        "ForInLoopGenerator"
+    ],
+    "endforofloop": [
+        "ForOfLoopGenerator"
+    ],
+    "endobjectliteral": [
+        "ObjectLiteralGenerator"
+    ],
+    "endobjectliteralmethod": [
+        "ObjectLiteralMethodGenerator"
+    ],
+    "endobjectliteralsetter": [
+        "ObjectLiteralSetterGenerator"
+    ],
+    "endplainfunction": [
+        "PlainFunctionGenerator"
+    ],
+    "endrepeatloop": [
+        "RepeatLoopGenerator"
+    ],
+    "endwith": [
+        "WithStatementGenerator"
+    ],
+    "getelement": [
+        "ElementRetrievalGenerator"
+    ],
+    "loadboolean": [
+        "BooleanGenerator"
+    ],
+    "loadinteger": [
+        "IntegerGenerator"
+    ],
+    "objectliteraladdelement": [
+        "ObjectLiteralElementGenerator"
+    ],
+    "objectliteraladdproperty": [
+        "ObjectLiteralPropertyGenerator"
+    ],
+    "objectliteralcopyproperties": [
+        "ObjectLiteralCopyPropertiesGenerator"
+    ],
+    "objectliteralsetprototype": [
+        "ObjectLiteralSetPrototypeGenerator"
+    ],
+    "return": [
+        "SubroutineReturnGenerator"
+    ],
+    "setcomputedproperty": [
+        "ComputedPropertyAssignmentGenerator"
+    ],
+    "unaryoperation": [
+        "UnaryOperationGenerator"
+    ],
+    "update": [
+        "UpdateExpressionGenerator"
+    ],
+    "updateproperty": [
+        "PropertyUpdateGenerator"
+    ]
+}
