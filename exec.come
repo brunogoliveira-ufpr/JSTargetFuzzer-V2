@@ -1,0 +1,139 @@
+Sources/Fuzzilli/Engines/FuzzEngine.swift:    public func execute(_ program: Program, withTimeout timeout: UInt32? = nil) -> ExecutionOutcome {
+Sources/Fuzzilli/Engines/FuzzEngine.swift:            ensureDeterministicExecutionOutcomeForDiagnostic(of: program)
+Sources/Fuzzilli/Engines/FuzzEngine.swift:    private func ensureDeterministicExecutionOutcomeForDiagnostic(of program: Program) {
+Sources/Fuzzilli/Fuzzer.swift:    public func importProgram(_ program: Program, enableDropout: Bool = false, origin: ProgramOrigin) -> ExecutionOutcome {
+Sources/Fuzzilli/Fuzzer.swift:        mutating func notifyImportOutcome(_ outcome: ExecutionOutcome) {
+Sources/Fuzzilli/Execution/REPRL.swift:    var outcome = ExecutionOutcome.succeeded
+Sources/Fuzzilli/Execution/Execution.swift:public enum ExecutionOutcome: CustomStringConvertible, Equatable, Hashable {
+Sources/Fuzzilli/Execution/Execution.swift:    var outcome: ExecutionOutcome { get }
+Sources/Fuzzilli/Evaluation/ProgramAspects.swift:    let outcome: ExecutionOutcome
+Sources/Fuzzilli/Evaluation/ProgramAspects.swift:    public init(outcome: ExecutionOutcome) {
+Sources/Fuzzilli/Util/MockFuzzer.swift:    let outcome: ExecutionOutcome
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "usr": "s:8Fuzzilli10FuzzEnginePAAE7execute_11withTimeoutAA16ExecutionOutcomeOAA7ProgramC_s6UInt32VSgtF",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "mangledName": "$s8Fuzzilli10FuzzEnginePAAE7execute_11withTimeoutAA16ExecutionOutcomeOAA7ProgramC_s6UInt32VSgtF",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "usr": "s:8Fuzzilli14ProgramAspectsC7outcomeAA16ExecutionOutcomeOvp",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "mangledName": "$s8Fuzzilli14ProgramAspectsC7outcomeAA16ExecutionOutcomeOvp",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "usr": "s:8Fuzzilli14ProgramAspectsC7outcomeAA16ExecutionOutcomeOvg",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "mangledName": "$s8Fuzzilli14ProgramAspectsC7outcomeAA16ExecutionOutcomeOvg",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "usr": "s:8Fuzzilli14ProgramAspectsC7outcomeAcA16ExecutionOutcomeO_tcfc",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "mangledName": "$s8Fuzzilli14ProgramAspectsC7outcomeAcA16ExecutionOutcomeO_tcfc",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "usr": "s:8Fuzzilli10CovEdgeSetC7outcomeAcA16ExecutionOutcomeO_tcfc",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "mangledName": "$s8Fuzzilli10CovEdgeSetC7outcomeAcA16ExecutionOutcomeO_tcfc",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:      "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:      "printedName": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "printedName": "(Fuzzilli.ExecutionOutcome.Type) -> (Swift.Int) -> Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "printedName": "(Swift.Int) -> Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                      "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                      "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                      "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "printedName": "Fuzzilli.ExecutionOutcome.Type",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                      "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                      "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                      "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "usr": "s:8Fuzzilli16ExecutionOutcomeO7crashedyACSicACmF",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "mangledName": "$s8Fuzzilli16ExecutionOutcomeO7crashedyACSicACmF",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "printedName": "(Fuzzilli.ExecutionOutcome.Type) -> (Swift.Int) -> Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "printedName": "(Swift.Int) -> Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                      "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                      "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                      "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "printedName": "Fuzzilli.ExecutionOutcome.Type",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                      "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                      "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                      "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "usr": "s:8Fuzzilli16ExecutionOutcomeO6failedyACSicACmF",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "mangledName": "$s8Fuzzilli16ExecutionOutcomeO6failedyACSicACmF",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "printedName": "(Fuzzilli.ExecutionOutcome.Type) -> Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "printedName": "Fuzzilli.ExecutionOutcome.Type",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                      "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                      "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                      "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "usr": "s:8Fuzzilli16ExecutionOutcomeO9succeededyA2CmF",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "mangledName": "$s8Fuzzilli16ExecutionOutcomeO9succeededyA2CmF",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "printedName": "(Fuzzilli.ExecutionOutcome.Type) -> Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "printedName": "Fuzzilli.ExecutionOutcome.Type",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                      "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                      "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                      "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "usr": "s:8Fuzzilli16ExecutionOutcomeO8timedOutyA2CmF",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "mangledName": "$s8Fuzzilli16ExecutionOutcomeO8timedOutyA2CmF",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "usr": "s:8Fuzzilli16ExecutionOutcomeO11descriptionSSvp",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "mangledName": "$s8Fuzzilli16ExecutionOutcomeO11descriptionSSvp",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "usr": "s:8Fuzzilli16ExecutionOutcomeO11descriptionSSvg",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "mangledName": "$s8Fuzzilli16ExecutionOutcomeO11descriptionSSvg",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "usr": "s:8Fuzzilli16ExecutionOutcomeO7isCrashSbyF",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "mangledName": "$s8Fuzzilli16ExecutionOutcomeO7isCrashSbyF",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "usr": "s:8Fuzzilli16ExecutionOutcomeO21__derived_enum_equalsySbAC_ACtFZ",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "mangledName": "$s8Fuzzilli16ExecutionOutcomeO21__derived_enum_equalsySbAC_ACtFZ",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "usr": "s:8Fuzzilli16ExecutionOutcomeO9hashValueSivp",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "mangledName": "$s8Fuzzilli16ExecutionOutcomeO9hashValueSivp",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "usr": "s:8Fuzzilli16ExecutionOutcomeO9hashValueSivg",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "mangledName": "$s8Fuzzilli16ExecutionOutcomeO9hashValueSivg",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "usr": "s:8Fuzzilli16ExecutionOutcomeO4hash4intoys6HasherVz_tF",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "mangledName": "$s8Fuzzilli16ExecutionOutcomeO4hash4intoys6HasherVz_tF",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:      "usr": "s:8Fuzzilli16ExecutionOutcomeO",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:      "mangledName": "$s8Fuzzilli16ExecutionOutcomeO",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "usr": "s:8Fuzzilli14REPRLExecutionC7outcomeAA16ExecutionOutcomeOvp",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "mangledName": "$s8Fuzzilli14REPRLExecutionC7outcomeAA16ExecutionOutcomeOvp",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "usr": "s:8Fuzzilli14REPRLExecutionC7outcomeAA16ExecutionOutcomeOvg",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "mangledName": "$s8Fuzzilli14REPRLExecutionC7outcomeAA16ExecutionOutcomeOvg",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "usr": "s:8Fuzzilli14REPRLExecutionC7outcomeAA16ExecutionOutcomeOvs",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "mangledName": "$s8Fuzzilli14REPRLExecutionC7outcomeAA16ExecutionOutcomeOvs",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "usr": "s:8Fuzzilli14REPRLExecutionC7outcomeAA16ExecutionOutcomeOvM",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "mangledName": "$s8Fuzzilli14REPRLExecutionC7outcomeAA16ExecutionOutcomeOvM",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "usr": "s:8Fuzzilli6FuzzerC13importProgram_13enableDropout6originAA16ExecutionOutcomeOAA0D0C_SbAA0D6OriginOtF",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:          "mangledName": "$s8Fuzzilli6FuzzerC13importProgram_13enableDropout6originAA16ExecutionOutcomeOAA0D0C_SbAA0D6OriginOtF",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:                  "usr": "s:8Fuzzilli16ExecutionOutcomeO"
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "name": "ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "printedName": "Fuzzilli.ExecutionOutcome",
+.build/x86_64-unknown-linux-gnu/debug/Fuzzilli.abi.json:              "usr": "s:8Fuzzilli16ExecutionOutcomeO"

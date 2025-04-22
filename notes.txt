@@ -1,0 +1,10 @@
+swift-5.6.2-RELEASE-ubuntu20.04
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games:/home/kali/PhD/depot_tools/:/home/kali/swift
+swift-run FuzzilliCli --profile=v8 /home/kali/PhD/JSEs/v8/v8/out/fuzzbuild/d8
+https://raw.githubusercontent.com/SpaceNaN/fuzzjit/ >> ChakraCore profile
+replace --reprl to -reprl in Chakra profile
+fix hermesProfile (randomize and guard)
+gcc-11 for hermes compilation
+cmake -S hermes -B hermes/build -G Ninja -DHERMES_ENABLE_FUZZILLI=ON -DHERMES_ENABLE_TRACE_PC_GUARD=ON
+Hermes is --replr
+comment hermes crashtest2

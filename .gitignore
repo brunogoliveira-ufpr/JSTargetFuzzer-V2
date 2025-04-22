@@ -1,0 +1,7 @@
+/programs/*
+/cli/reports/*
+/cli/
+/crashes*/
+/implementation_notes
+/.build/
+/data_analysis/

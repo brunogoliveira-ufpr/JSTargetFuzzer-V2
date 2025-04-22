@@ -1,0 +1,14 @@
+{
+    "logFilePath": "/programs/logfile.txt",
+    "programsBaseDirectory": "/programs/files/",
+    "csvConfig": {
+        "rawData": {
+            "filePath": "/programs/data/raw-data.csv",
+            "header": "Engine,Timestamp,ProgramID,Weight,NumEdges,NumSecCov,NumSecCovTotal,NumSecPerProgram,NumSecPerProgramTotal,TotalPrograms,TotalProgramsLower,TotalProgramsGreater,CodeFilePath"
+        },
+        "decreaseLog": {
+            "filePath": "/programs/data/decrease-log.csv",
+            "header": "Engine,Timestamp,ProgramID,Weight,NumEdges,NumSecCov,NumSecCovTotal,NumSecPerProgram,NumSecPerProgramTotal,TotalPrograms,TotalProgramsLower,TotalProgramsGreater,CodeFilePath"
+        }
+    }
+}
