@@ -32,7 +32,7 @@ public class LogManager {
             fileHandle.seekToEndOfFile()
             let timestamp = DateFormatter.localizedString(from: Date(), dateStyle: .short, timeStyle: .medium)
             let logEntry = "[\(timestamp)] \(message)\n"
-            //fileHandle.write(logEntry.data(using: .utf8)!)
+            fileHandle.write(logEntry.data(using: .utf8)!)
             fileHandle.closeFile()
         } catch {
             print("Failed to write to file: \(error)")
