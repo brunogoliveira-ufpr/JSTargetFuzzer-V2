@@ -47,6 +47,8 @@ To run JSTargetFuzzer with a minimal corpus size of 2,000:
 swift-run FuzzilliCli --profile=duktape /home/kali/JSEs/duktape/build/duk-fuzzilli --minCorpusSize=2000
 ```
 
+Scripts utilized for the RQs are stored in `scripts/` folder.
+
 ## RQ1 – Streamlit Interface
 
 - Install Streamlit:
@@ -55,7 +57,7 @@ swift-run FuzzilliCli --profile=duktape /home/kali/JSEs/duktape/build/duk-fuzzil
   pip install streamlit
   ```
 
-- Launch the front-end interface from the `./cli/` directory:
+- Launch the front-end interface from the `./client/` directory:
 
   ```bash
   streamlit run app.py
