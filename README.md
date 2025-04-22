@@ -49,7 +49,7 @@ swift-run FuzzilliCli --profile=duktape /home/kali/JSEs/duktape/build/duk-fuzzil
 
 Scripts utilized for the RQs are stored in `scripts/` folder.
 
-## RQ1 – Streamlit Interface
+## RQ1 – HitCount & UniqueHitCount Analysis
 
 - Install Streamlit:
 
@@ -68,7 +68,7 @@ Scripts utilized for the RQs are stored in `scripts/` folder.
   - Local URL: http://localhost:8501  
   - Network URL: http://<your-ip>:8501
 
-## RQ2 – Program Analysis
+## RQ2 – Program Metrics Analysis
 
 All programs for RQ2 are saved as Intermediate Language (IL) files in the `programs/files/` directory.
 
@@ -97,7 +97,7 @@ Crash-inducing files will be stored in:
 ./crashes-duktape/crashes/
 ```
 
-## RQ4 – Mutation Operators and Seeds
+## RQ4 – Vulnerabilities (Tailored Approach)
 
 To run a fuzzing campaign with custom operators and tailored seeds:
 
