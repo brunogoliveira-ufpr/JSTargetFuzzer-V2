@@ -1,4 +1,4 @@
-# JSTargetFuzzer
+# JSTargetFuzzer-V2
 
 JSTargetFuzzer-v2.0 is an approach that utilizes novel history-based fuzzing guidance with tailored seeds and mutation operators, using Fuzzilli as base software.
 
