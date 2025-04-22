@@ -66,7 +66,7 @@ The script used to calculate the metrics for the JavaScript files is in the same
 ### RQ3
 The JavaScript files that caused the crashes are saved in a directory determined by command-line, for example:
 ```bash
-swift-run FuzzilliCli --profile=duktape /home/kali/JSEs/duktape/build/duk-fuzzilli --storagePath=./crashes-duktape/
+swift-run FuzzilliCli --profile=duktape /home/kali/JSEs/duktape/build/duk-fuzzilli --storagePath=./crashes-duktape/ --minCorpusSize=2000
 ```
 Then the directory ./crashes-duktape/crashes will store the files responsible for crashes during the fuzzing campaign.
 
