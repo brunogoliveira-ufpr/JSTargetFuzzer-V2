@@ -72,8 +72,8 @@ Scripts utilized for the RQs are stored in `scripts/` folder.
 
 All programs for RQ2 are saved as Intermediate Language (IL) files in the `programs/files/` directory.
 
-- Programs with `_weight1` suffix have no security flags.
-- Programs with `_weight1000` suffix are tagged with security-relevant behavior.
+- Programs with `_nullflag` suffix have no security flags.
+- Programs with `_secflag` suffix are tagged with security-relevant behavior.
 
 To convert IL programs to JavaScript:
 
@@ -99,7 +99,7 @@ Crash-inducing files will be stored in:
 
 ## RQ4 – Vulnerabilities (Tailored Approach)
 
-To run a fuzzing campaign with custom operators and tailored seeds:
+Example of how to run a fuzzing campaign using tailored mutation operators and seed configurations:
 
 ```bash
 swift-run FuzzilliCli --profile=duktape /home/kali/JSEs/duktape/build/duk-fuzzilli --mutators=splice,combine,operation,exploration,codegen --minCorpusSize=2000
