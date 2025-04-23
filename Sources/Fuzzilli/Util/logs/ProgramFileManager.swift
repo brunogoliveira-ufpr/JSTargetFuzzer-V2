@@ -21,6 +21,7 @@ public class ProgramFileManager {
     }
 
     public func saveProgramCode(_ code: Code, programID: UUID, weight: Int) -> URL? {
+
         let fileName = "program_\(programID.uuidString)_weight_\(weight).txt"
         let fileURL = programsDirectory.appendingPathComponent(fileName)
 
@@ -51,21 +52,26 @@ public class ProgramFileManager {
     }
 
     public func saveProgramAsProtobuf(_ program: Program, programID: UUID, weight: Int) -> URL? {
-        let fileName = "program_\(programID.uuidString)_weight_\(weight).fzil"
-        let fileURL = programsDirectory.appendingPathComponent(fileName)
+    var fileName: String
 
-        do {
-            // Serializando o programa no formato Protobuf
-            let protobufData = try program.asProtobuf().serializedData()
-            
-            // Escrevendo os dados serializados no arquivo .fzil
-            try protobufData.write(to: fileURL)
-            return fileURL
-        } catch {
-            print("Failed to save program as Protobuf: \(error)")
-            return nil
-        }
+    if weight == Int(programWeight3) {
+        fileName = "program_\(programID.uuidString)_nullflag.fzil"
+    } else {
+        fileName = "program_\(programID.uuidString)_secflag.fzil"
     }
+
+    let fileURL = programsDirectory.appendingPathComponent(fileName)
+
+    do {
+        let protobufData = try program.asProtobuf().serializedData()
+        try protobufData.write(to: fileURL)
+        return fileURL
+    } catch {
+        print("Failed to save program as Protobuf: \(error)")
+        return nil
+    }
+}
+
     
 
 }
