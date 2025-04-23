@@ -72,8 +72,8 @@ Scripts utilized for the RQs are stored in `scripts/` folder.
 
 All programs for RQ2 are saved as Intermediate Language (IL) files in the `programs/files/` directory.
 
-- Programs with `_weight1` suffix have no security flags.
-- Programs with `_weight1000` suffix are tagged with security-relevant behavior.
+- Programs with `_nullflag` suffix have no security flags.
+- Programs with `_secflag` suffix are tagged with security-relevant behavior.
 
 To convert IL programs to JavaScript:
 
