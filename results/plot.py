@@ -1,0 +1,61 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import os
+
+# Define input CSV files
+input_files = {
+    'ChakraCore': './ChakraCore-JSTargetFuzzer.csv',
+    'Duktape': './Duktape-JSTargetFuzzer.csv',
+    'JavaScriptCore': './JavaScriptCore-JSTargetFuzzer.csv',
+    'Jerryscript': './/Jerryscript-JSTargetFuzzer.csv',
+}
+
+fuzzilli_files = {
+    'ChakraCore': './ChakraCore-Fuzzilli.csv',
+    'Duktape': './Duktape-Fuzzilli.csv',
+    'JavaScriptCore': './JavaScriptCore-Fuzzilli.csv',
+    'Jerryscript': './Jerryscript-Fuzzilli.csv',
+}
+
+# Directory for corrected plots
+output_dir = "./"
+os.makedirs(output_dir, exist_ok=True)
+
+# Load and plot real CSV data
+for engine in input_files:
+    df1 = pd.read_csv(input_files[engine])
+    df2 = pd.read_csv(fuzzilli_files[engine])
+
+    # Common time axis
+    length = min(len(df1), len(df2))
+    elapsed = list(range(length))
+    
+    # Plot HitCount
+    plt.figure(figsize=(10, 5), facecolor='white')
+    plt.plot(elapsed, df1['HitCount'][:length], label=f'{engine}-JSTargetFuzzer.csv', marker='o')
+    plt.plot(elapsed, df2['HitCount'][:length], label=f'{engine}-Fuzzilli.csv', marker='o')
+    #plt.title(f'HitCount Over Time - {engine}')
+    plt.xlabel('ElapsedTime (Minutes)')
+    plt.ylabel('HitCount')
+    plt.xticks([0, 360, 720, 1080, 1440], ['0h', '6h', '12h', '18h', '24h'])
+    plt.grid(True, axis='y', linestyle='--', alpha=0.6)
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig(os.path.join(output_dir, f"{engine}-HitCount.png"))
+    plt.close()
+
+    # Plot UniqueHitCount
+    plt.figure(figsize=(10, 5), facecolor='white')
+    plt.plot(elapsed, df1['UniqueHitCount'][:length], label=f'{engine}-JSTargetFuzzer.csv', marker='o')
+    plt.plot(elapsed, df2['UniqueHitCount'][:length], label=f'{engine}-Fuzzilli.csv', marker='o')
+    #plt.title(f'UniqueHitCount Over Time - {engine}')
+    plt.xlabel('ElapsedTime (Minutes)')
+    plt.ylabel('UniqueHitCount')
+    plt.xticks([0, 360, 720, 1080, 1440], ['0h', '6h', '12h', '18h', '24h'])
+    plt.grid(True, axis='y', linestyle='--', alpha=0.6)
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig(os.path.join(output_dir, f"{engine}-UniqueHitCount.png"))
+    plt.close()
+
+output_dir
