@@ -99,10 +99,10 @@ Crash-inducing files will be stored in:
 
 ## RQ4 – Vulnerabilities (Tailored Approach)
 
-Example of how to run a fuzzing campaign using tailored mutation operators and seed configurations:
+Example of how to run a fuzzing campaign using tailored mutation operators and seed generators:
 
 ```bash
-swift-run FuzzilliCli --profile=duktape /home/kali/JSEs/duktape/build/duk-fuzzilli --mutators=splice,combine,operation,exploration,codegen --minCorpusSize=2000
+swift-run FuzzilliCli --profile=duktape /home/kali/JSEs/duktape/build/duk-fuzzilli --use-loop-condition --use-object-array --use-read-write --mutators=splice,combine,operation,exploration,codegen --minCorpusSize=2000
 ```
 
 ## Results
