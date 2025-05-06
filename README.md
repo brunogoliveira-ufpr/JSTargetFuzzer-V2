@@ -83,7 +83,7 @@ swift-run FuzzILTool --liftCorpusToJS /programs/files/
 
 The script used to compute JavaScript metrics is available at: `scripts/RQ2-metrics.py`
 
-## RQ3 – Crash Analysis
+## RQ3 – Crashes
 
 Crashing inputs are saved in a user-defined directory, for example:
 
@@ -97,7 +97,7 @@ Crash-inducing files will be stored in:
 ./crashes-duktape/crashes/
 ```
 
-## RQ4 – Vulnerabilities (Tailored Approach)
+## RQ4 – Vulnerabilities (Seeds Generators & Mutation Operators)
 
 Example of how to run a fuzzing campaign using tailored mutation operators and seed generators:
 
