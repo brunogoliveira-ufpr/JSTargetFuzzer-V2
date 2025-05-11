@@ -144,17 +144,8 @@ extern "C" void __sanitizer_cov_trace_pc_guard(uint32_t *guard) {
  
     void *PC = __builtin_return_address(0); 
  
-
-    void *JavascriptArrayStart = (void*)0x5555565dd83a; 
-    void *JavascriptArrayEnd = (void*)0x55555665606b;
-
-    void *ParserStart = (void*)0x555556cc6d40;
-    void *ParserEnd = (void*)0x555556cfa770;
-
-    void *LowerStart = (void*)0x555556640170; 
-    void *LowerEnd = (void*)0x555556650170;
-    void *GlobOptStart = (void*)0x555557426258;
-    void *GlobOptEnd = (void*)0x55555743ede8;
+    void *GlobOptStart = (void*)0x555557427047;
+    void *GlobOptEnd = (void*)0x5555574aadb0;
 
     uintptr_t PC_u = (uintptr_t)PC;
 
