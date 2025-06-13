@@ -49,7 +49,11 @@ swift-run FuzzilliCli --profile=duktape /home/kali/JSEs/duktape/build/duk-fuzzil
 
 Scripts utilized for the RQs are stored in `scripts/` folder.
 
-## RQ1 – HitCount & UniqueHitCount Analysis
+## RQ1 - Weighting vs Flagging System
+
+The dataset is provided in the `results/` folder.
+
+## RQ2 – HitCount & UniqueHitCount Analysis
 
 - Install Streamlit:
 
@@ -68,7 +72,7 @@ Scripts utilized for the RQs are stored in `scripts/` folder.
   - Local URL: http://localhost:8501  
   - Network URL: http://<your-ip>:8501
 
-## RQ2 – Program Metrics Analysis
+## RQ3 – Program Metrics Analysis
 
 All programs for RQ2 are saved as Intermediate Language (IL) files in the `programs/files/` directory.
 
@@ -83,7 +87,7 @@ swift-run FuzzILTool --liftCorpusToJS /programs/files/
 
 The script used to compute JavaScript metrics is available at: `scripts/RQ2-metrics.py`
 
-## RQ3 – Crashes
+## RQ4 – Crashes
 
 Crashing inputs are saved in a user-defined directory, for example:
 
@@ -97,7 +101,7 @@ Crash-inducing files will be stored in:
 ./crashes-duktape/crashes/
 ```
 
-## RQ4 – Vulnerabilities (Seeds Generators & Mutation Operators)
+## RQ5 – Vulnerabilities (Seeds Generators & Mutation Operators)
 
 Example of how to run a fuzzing campaign using tailored mutation operators and seed generators:
 
