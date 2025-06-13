@@ -109,6 +109,11 @@ Example of how to run a fuzzing campaign using tailored mutation operators and s
 swift-run FuzzilliCli --profile=duktape /home/kali/JSEs/duktape/build/duk-fuzzilli --use-loop-condition --use-object-array --use-read-write --mutators=splice,combine,operation,exploration,codegen --minCorpusSize=2000
 ```
 
+### CVEs
+* CVE-2025-46167
+* CVE-2025-46168
+* CVE-2025-46169
+
 ## Results
 
-All statistical outputs and experimental data for RQ1–RQ4 are saved in the `results/` directory.
+All statistical outputs and experimental data for RQ1–RQ5 are saved in the `results/` directory.
