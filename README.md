@@ -4,11 +4,6 @@
 
 ## Install
 
-### System Configuration
-
-- **CPU**: Intel i9-14900F (24 cores)  
-- **OS**: Kali Linux 2024.1
-
 ### Third-Party Software
 
 - Install Swift version 5.6.2 (`swift-5.6.2-RELEASE-ubuntu20.04`)
